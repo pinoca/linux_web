@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.136.100" id="aa592558-27b1-4f43-a63c-4a650a23d687" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig host="121.5.56.178" id="ca625dc8-b43a-4880-8e3b-ddac60045c32" keyPath="C:\Users\Administrator\Desktop\tencent_sh" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

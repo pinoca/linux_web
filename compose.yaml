@@ -1,0 +1,19 @@
+version: "2.10"
+
+services:
+  web:
+    build: ./
+    ports:
+      - "3333:8000"
+    volumes:
+      - ./:/web
+    environment:
+      - TZ=Asia/Shanghai
+  redis:
+    image: redis:5.0.13
+    volumes:
+      - redis:/data
+    environment:
+      - TZ=Asia/Shanghai
+volumes:
+  redis:
